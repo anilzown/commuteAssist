@@ -1,0 +1,33 @@
+{
+    "name": "CommuteAssist",
+    "version": "1.0.0",
+    "description": "Commute ",
+    "main": "index.js",
+    "author": "anil kumar",
+    "license": "ISC",
+    "dependencies": {
+        "angular": "1.4.x",
+        "angular-route": "1.4.x",
+        "angular-resource": "1.4.x",
+        "body-parser": "~1.15.2",
+        "bootstrap": "~3.1.1",
+        "bcrypt-nodejs": "latest",
+        "connect-flash": "~0.1.1",
+        "cookie-parser": "~1.4.3",
+        "ejs": "~2.5.2",
+        "express-session": "~1.14.1",
+        "express": "~4.14.0",
+        "http-server": "^0.6.1",
+        "jquery": "~2.2.3",
+        "mongoose": "~4.6.1",
+        "morgan": "~1.2.2",
+        "method-override": "~2.1.2",
+        "node-restful": "^0.2.2",
+        "passport": "~0.3.2",
+        "passport-local": "~1.0.0",
+        "passport-facebook": "~2.1.1",
+        "passport-twitter": "~1.0.4",
+        "passport-google-oauth": "~1.0.0"
+    },
+    "main": "server.js"
+}
