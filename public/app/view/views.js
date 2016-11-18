@@ -8,6 +8,7 @@ angular.module('website', ['ngRoute']).
             when('/taskdetail', {templateUrl: 'partials/taskdetail.html'}).
             when('/login', {templateUrl: 'partials/login.html'}).
               when('/googleLogin', {templateUrl: 'partials/googleLogin.html'}).
+               when('/location', {templateUrl: 'partials/location.html'}).
               when('/googleSignOut', {templateUrl: 'partials/googleSignOut.html'}).
               
             otherwise({redirectTo: '/home'});
