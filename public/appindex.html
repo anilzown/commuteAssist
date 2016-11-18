@@ -1,0 +1,60 @@
+<!doctype html>
+<html ng-app="website">
+
+<head lang="en">
+    <!-- <!DOCTYPE html>
+<html lang="en-US" prefix="og: http://ogp.me/ns#" ng-app="website">
+
+<head> -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CommuteAssist</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,400italic">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cookie">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/Blog-Recent-posts-list.css">
+    <link rel="stylesheet" href="assets/css/ebs-contact-form.css">
+    <link rel="stylesheet" href="assets/css/Good-login-dropdown-menu.css">
+    <link rel="stylesheet" href="assets/css/Pretty-Login-Form.css">
+    <link rel="stylesheet" href="assets/css/user.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header"><a class="navbar-brand navbar-link" href="/">Commute Assist</a>
+                <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+            </div>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active" role="presentation"><a href="#/login">Login </a></li>
+                    <li class="active" role="presentation"><a href="#/profile">Profile</a></li>
+                    <li class="active" role="presentation"><a href="#/commutetracker">Commute Tracker</a></li>
+                    <li class="active" role="presentation"><a href="#/location">Location</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="container">
+        <div ng-view></div>
+    </div>
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h5>CommuteAssist © 2016</h5></div>
+                <div class="col-sm-6 social-icons"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-rc.1/angular.min.js"></script>
+    <script src="https://code.angularjs.org/1.3.0-rc.1/angular-route.min.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/app/view/views.js"></script>
+    <script type="text/javascript" src="app/controller/controller.js"></script>
+    <script type="text/javascript" src="app/service/services.js"></script>
+</body>
+
+</html>
