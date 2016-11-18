@@ -10,7 +10,7 @@ config(function($routeProvider) {
     when('/profile', { templateUrl: 'partials/ca-userprofile.html' }).
     when('/commutetracker', { templateUrl: 'partials/ca-commutetracker.html' }).
         // when('/googleLogin', {templateUrl: 'partials/googleLogin.html'}).
-    when('/location', { templateUrl: 'partials/location.html' }).
+    when('/location', { templateUrl: 'partials/ca-location.html' }).
         // when('/googleSignOut', {templateUrl: 'partials/googleSignOut.html'}).
 
     otherwise({ redirectTo: '/login' });
